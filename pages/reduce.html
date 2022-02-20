@@ -1,0 +1,58 @@
+<h1>Reduce</h1><br>
+<h2 class="title-content">O que faz o método reduce()?</h2>
+<p class="content-p">O que <span class="variavel">reduce()</span> faz: como <span class="variavel">map()</span>,<span class="variavel">reduce() </span>percorre o array da esquerda para a direita invocando uma função de retorno em cada elemento. O valor retornado é o valor acumulado passado de callback para callback. Depois de todos os elementos terem sido avaliados,<span class="variavel">reduce()</span> retorna o valor acumulado/concatenado.</strong></p></p>
+
+
+<h3 class="title-content">Parâmetros:</h3>
+<p class="content-cod"><img src="./img/cod10.png" alt="codigo 1 reduce"></p>
+
+<div class="div-table">
+    <table class="table-content">
+        <thead>
+            <tr>
+                <th class="cor-table">Parâmetro</th>
+                <th class="cor-table">Significado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>acumulador</strong></td>
+                <td>Valor cumulado retornado em cada iteração</td>
+            </tr>
+            <tr>
+                <td class="cor-table"><strong>elemento</strong></td>
+                <td class="cor-table">Valor do elemento</td>
+            </tr>
+            <tr>
+                <td><strong>index</strong></td>
+                <td>Índice em cada iteração, da esquerda para a direita</td>
+            </tr>
+            <tr>
+                <td class="cor-table"><strong>arrayOriginal</strong></td>
+                <td class="cor-table">Array original invocando o método</td>
+            </tr>
+            <tr>
+                <td><strong>valorInicial</strong></td>
+                <td>Permite especificar um valor inicial opcional para o loop começar</td>
+            </tr>
+        </tbody>
+    </table>
+</div><br>
+
+<h3 class="title-content">Exemplo</h3>
+<p class="content-cod"><img src="./img/cod9.png" alt="codigo 2 reduce"></p>
+
+<p class="content-p">A função callback será executada para cada elemento dentro da lista. E a cada iteração, recebe como parâmetro:</p>
+
+<div class="lista-content"><ul>
+    <li>O valor <span class="variavel">total</span>, sendo o valor retornado na iteração anterior;</li>
+    <li>E o valor do elemento atual, atribuído a variável <span class="variavel">numero</span>.</li>
+</ul></div>
+
+    <p class="content-p">Sendo que na primeira chamada o valor inicial é o que definimos como segundo parâmetro da função, ou seja, o número zero.<br><br>
+    
+    E caso você não forneça um valor inicial, o reduce() inicia com o primeiro elemento do Array, e começa o loop a partir do segundo item.<br><br>
+    
+    Mas essa não é uma boa prática de programação, uma vez que pode gerar resultados imprevisíveis.</strong></p></p>
+
+

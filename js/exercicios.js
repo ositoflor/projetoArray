@@ -18,3 +18,14 @@ function resposta2(){
         return $("#result").html("Poxa não acertou 😔😔 tente novamente.");
     }
 }
+
+
+function resposta3(){
+    let resp = $("#resposta").val()
+    if(resp === ">="){
+        $("#btn-proximo1").removeClass("sumir-btn");
+        $("#result").html("Parabéns você acertou!! 🤩🤩");
+    } else {
+        return $("#result").html("Poxa não acertou 😔😔 tente novamente.");
+    }
+}

@@ -1,0 +1,44 @@
+<h1>Map</h1><br>
+<h2 class="title-content">O que faz o método map()? </h2>
+<p class="content-p">O que <span class="variavel">map()</span> faz: percorre o array da esquerda para a direita invocando uma função de retorno em cada elemento com parâmetros. Para cada chamada de retorno, o valor devolvido se torna o elemento do novo array. Depois que todos os elementos foram percorridos, <span class="variavel">map()</span> retorna o novo array com todos os elementos “traduzidos”.<br><br>
+    Vale ressaltar que a <strong>array original não sofre nenhum tipo de alteração pelo método map().</strong></p>
+
+<h2 class="title-content">Parâmetros</h2>
+<p class="content-cod"><img src="./img/cod7.png" alt="codigo 1 Map"></p>
+
+<div class="div-table">
+    <table class="table-content">
+        <thead>
+            <tr>
+                <th class="cor-table">Parâmetro</th>
+                <th class="cor-table">Significado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Elemento</strong></td>
+                <td>Valor do elemento</td>
+            </tr>
+            <tr>
+                <td class="cor-table"><strong>index</strong></td>
+                <td class="cor-table">Índice em cada iteração, da esquerda para a direita</td>
+            </tr>
+            <tr>
+                <td><strong>Array</strong></td>
+                <td>Valor opcional, array original</td>
+            </tr>
+            <tr>
+                <td class="cor-table"><strong>thisArg</strong></td>
+                <td class="cor-table">(opcional) Objeto que será referenciado como this no callback</td>
+            </tr>
+        </tbody>
+    </table>
+</div><br>
+
+<h3 class="title-content">Exemplo</h3>
+
+<p class="content-p">Nesse exemplo, vamos criar um array de objetos com nome e sobrenome de pessoas, e utilizar o método map() para atribuir a um novo array a união dessas propriedades. Confira a depuração do código, a seguir:</p>
+<p class="content-cod"><img src="./img/cod8.png" alt="codigo 2 Map"></p>
+
+<p class="content-p">Perceba que, ao utilizarmos o método map(), retornamos um array diferente do modelo original. Nesse caso, concatenamos as propriedades nome e sobrenome, e a atribuímos a uma string chamada nome.</p>
+

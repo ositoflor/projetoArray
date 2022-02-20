@@ -61,6 +61,7 @@ main.container-fluid{
     align-items: center;
     color: #000;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .nav-link:hover{
@@ -110,7 +111,9 @@ div h2.title-prin {
 .content-p {
     font-size: 1.1rem;
     margin-top: 30px;
+    margin-bottom: 30px;
     text-align: start;
+    line-height: 32px;
 }
 
 .content-cod{
@@ -120,6 +123,31 @@ div h2.title-prin {
 .content-cod img {
     width: 80%;
     border-radius: 5px;
+}
+
+
+.div-table {
+    margin-top: 40px;
+    font-size: 1.05rem;
+}
+
+.table-content {
+
+    margin: auto;
+    border: 2px solid #fff;
+}
+tr,th,td {
+    border: 2px solid #fff;
+    text-align: start;
+    padding: 10px;
+}
+
+.cor-table {
+    background-color: hsla(0,0%,88%,.3);
+}
+
+li {
+    text-align: start;
 }
 
 /* Fim conteudo */
@@ -137,7 +165,7 @@ div h2.title-prin {
     background-color: #D3D3D3;
     margin: auto;
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
 }
 
@@ -155,6 +183,13 @@ div h2.title-prin {
     border: none;
 }
 
+.resposta3 {
+    text-align: start;
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
 .btn-resposta {
     margin-top: 20px;
     display: flex;
@@ -166,6 +201,10 @@ div h2.title-prin {
 
 .sumir-btn {
     display: none;
+}
+
+.page-item {
+    cursor: pointer;
 }
 
 /* Fim exercicio */

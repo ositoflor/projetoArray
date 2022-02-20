@@ -1,6 +1,6 @@
 <h1>Exercício</h1>
 
-<p class="content-p">Use o método Array correto para remover o último item de<span class="variavel"> frutas </span></p>
+<p class="content-p">Use o método <span class="variavel">pop</span> para remover o último item de<span class="variavel"> frutas </span></p>
 
 <div class="cod-exe">
     <p class="content-p"> const frutas = ["Banana", "Laranja", "Melão"]<br>
@@ -9,7 +9,15 @@
 
 <div class="btn-resposta" ><button class="btn btn-warning" onclick="resposta2()" type="submit">Enviar
         resposta</button>
-    <button id="btn-proximo1" class="btn btn-warning sumir-btn" type="submit">Próximo exercicio</button>
+    <button id="btn-proximo1" class="btn btn-warning sumir-btn" onclick="exercicio3()" type="submit">Próximo exercicio</button>
 </div>
 
 <strong><p class="content-p" id="result"> </p></strong>
+
+<nav aria-label="...">
+    <ul class="pagination pagination">
+      <li class="page-item"><a class="page-link" onclick="exercicio()">1</a></li>
+      <li class="page-item"><a class="page-link" onclick="exercicio2()">2</a></li>
+      <li class="page-item"><a class="page-link" onclick="exercicio3()">3</a></li>
+    </ul>
+  </nav>
