@@ -33,3 +33,7 @@ function array() {
   function exercicio3() {
     $("#content").load("./pages/exercicio3.html");
   }
+
+  function exercicio4() {
+    $("#content").load("./pages/exercicio4.html");
+  }

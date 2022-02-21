@@ -29,3 +29,13 @@ function resposta3(){
         return $("#result").html("Poxa não acertou 😔😔 tente novamente.");
     }
 }
+
+function resposta4(){
+    let resp = $("#resposta").val()
+    if(resp === "nomes.push"){
+        $("#btn-proximo1").removeClass("sumir-btn");
+        $("#result").html("Parabéns você acertou!! 🤩🤩");
+    } else {
+        return $("#result").html("Poxa não acertou 😔😔 tente novamente.");
+    }
+}

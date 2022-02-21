@@ -189,6 +189,12 @@ li {
     height: 30px;
     border: none;
 }
+.resposta4 {
+    text-align: start;
+    width: 100px;
+    height: 30px;
+    border: none;
+}
 
 .btn-resposta {
     margin-top: 20px;
