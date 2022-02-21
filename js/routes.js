@@ -2,6 +2,10 @@ function array() {
     $("#content").load("./pages/array.html");
   }
 
+  function metodos(){
+    $("#content").load("./pages/metodos.html");
+  }
+
   function map() {
     $("#content").load("./pages/map.html");
   }
